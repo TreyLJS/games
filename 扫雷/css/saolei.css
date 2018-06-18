@@ -1,0 +1,139 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: black;
+}
+.wrap{
+	width: 1200px;
+	height: 800px;
+	border: 2px solid green;
+	margin: 40px auto;
+	position: relative;
+	box-shadow: 0 0 50px green;
+}
+.wrap .start-btn{
+	width: 140px;
+	height: 80px;
+	font-size: 60px;
+	line-height: 80px;
+	text-align: center;
+	border: 2px solid green;
+	color: green;
+	position: absolute;
+	left: calc(50% - 70px);
+	top: calc(50% - 40px);
+	cursor: pointer;
+	box-shadow: 0 0 50px green;
+	z-index: 1;
+}
+.wrap .game-container{
+	display: none;
+	width: 600px;
+	height: 600px;
+	position: absolute;
+	left: calc(50% - 300px);
+	top: calc(50% - 300px);
+	border: 2px solid green;
+	box-shadow: 0 0 50px green;
+}
+.wrap .cover{
+	display: none;
+	width: 600px;
+	height: 600px;
+	position: absolute;
+	left: calc(50% - 300px);
+	top: calc(50% - 300px);
+	/*border: 1px solid red;*/
+}
+.wrap .alert-lose,.wrap .alert-win{
+	display: none;
+	width: 400px;
+	height: 300px;
+	position: absolute;
+	left: calc(50% - 200px);
+	top: calc(50% - 150px);
+	border: 2px solid green;
+	box-shadow: 0 0 50px green;
+	font-size: 60px;
+	line-height: 300px;
+	text-align: center;
+	background: black;
+	color: green;
+	font-weight: bold;
+	border-radius: 20px;
+	overflow: hidden;
+}
+.wrap .close{
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	background-image: url(../img/close.png);
+	background-size: 100% 100%;
+	background-color:green;
+	position: absolute;
+	right: -2px;
+	top: -2px;
+	font-size: 30px;
+	color: #fff;
+	z-index: 9999;
+	border-radius: 20px;
+}
+.wrap .leishu{
+	display: none;
+	width: 220px;
+	height: 50px;
+	font-size: 30px;
+	line-height: 50px;
+	text-align: left;
+	color: green;
+	border: 1px solid green;
+	padding-left: 20px;
+}
+.wrap .time{
+	display: none;
+	width: 220px;
+	height: 50px;
+	font-size: 30px;
+	line-height: 50px;
+	text-align: left;
+	color: green;
+	border: 1px solid green;
+	padding-left: 20px;
+}
+.wrap .reset{
+	display: none;
+	width: 140px;
+	height: 80px;
+	font-size: 50px;
+	line-height: 80px;
+	text-align: center;
+	border: 2px solid green;
+	color: green;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	cursor: pointer;
+	box-shadow: 0 0 50px green;
+	z-index: 1;
+}
+.box{
+	width: 58px;
+	height: 58px;
+	border: 1px solid green;
+	float: left;
+	color: green;
+	font-size: 50px;
+	line-height: 58px;
+	text-align: center;
+	font-weight: bold;
+}
+.open{
+	background: rgba(0,255,0,0.3);
+	color: #fff;
+}
+.flag{
+	background-image: url(../img/flag.png);
+	background-size: 100% 100%;
+}
